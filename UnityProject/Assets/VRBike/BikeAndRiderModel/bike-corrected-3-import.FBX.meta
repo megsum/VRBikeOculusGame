@@ -1,0 +1,2841 @@
+fileFormatVersion: 2
+guid: fcf9132333691224382336d1c3c4823f
+timeCreated: 1442786683
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bike_root_controler
+    100004: BipBiker
+    100006: BipBiker Footsteps
+    100008: BipBiker Head
+    100010: BipBiker HeadNub
+    100012: BipBiker L Calf
+    100014: BipBiker L Clavicle
+    100016: BipBiker L Finger0
+    100018: BipBiker L Finger01
+    100020: BipBiker L Finger02
+    100022: BipBiker L Finger0Nub
+    100024: BipBiker L Finger1
+    100026: BipBiker L Finger11
+    100028: BipBiker L Finger12
+    100030: BipBiker L Finger1Nub
+    100032: BipBiker L Finger2
+    100034: BipBiker L Finger21
+    100036: BipBiker L Finger22
+    100038: BipBiker L Finger2Nub
+    100040: BipBiker L Finger3
+    100042: BipBiker L Finger31
+    100044: BipBiker L Finger32
+    100046: BipBiker L Finger3Nub
+    100048: BipBiker L Finger4
+    100050: BipBiker L Finger41
+    100052: BipBiker L Finger42
+    100054: BipBiker L Finger4Nub
+    100056: BipBiker L Foot
+    100058: BipBiker L Forearm
+    100060: BipBiker L ForeTwist
+    100062: BipBiker L ForeTwist1
+    100064: BipBiker L Hand
+    100066: BipBiker L Thigh
+    100068: BipBiker L Toe0
+    100070: BipBiker L Toe01
+    100072: BipBiker L UpperArm
+    100074: BipBiker LCalfTwist
+    100076: BipBiker LCalfTwist1
+    100078: BipBiker LThighTwist
+    100080: BipBiker LThighTwist1
+    100082: BipBiker LUpArmTwist
+    100084: BipBiker LUpArmTwist1
+    100086: BipBiker Neck
+    100088: BipBiker Pelvis
+    100090: BipBiker R Calf
+    100092: BipBiker R Clavicle
+    100094: BipBiker R Finger0
+    100096: BipBiker R Finger01
+    100098: BipBiker R Finger02
+    100100: BipBiker R Finger0Nub
+    100102: BipBiker R Finger1
+    100104: BipBiker R Finger11
+    100106: BipBiker R Finger12
+    100108: BipBiker R Finger1Nub
+    100110: BipBiker R Finger2
+    100112: BipBiker R Finger21
+    100114: BipBiker R Finger22
+    100116: BipBiker R Finger2Nub
+    100118: BipBiker R Finger3
+    100120: BipBiker R Finger31
+    100122: BipBiker R Finger32
+    100124: BipBiker R Finger3Nub
+    100126: BipBiker R Finger4
+    100128: BipBiker R Finger41
+    100130: BipBiker R Finger42
+    100132: BipBiker R Finger4Nub
+    100134: BipBiker R Foot
+    100136: BipBiker R Forearm
+    100138: BipBiker R ForeTwist
+    100140: BipBiker R ForeTwist1
+    100142: BipBiker R Hand
+    100144: BipBiker R Thigh
+    100146: BipBiker R Toe0
+    100148: BipBiker R Toe01
+    100150: BipBiker R UpperArm
+    100152: BipBiker RCalfTwist
+    100154: BipBiker RCalfTwist1
+    100156: BipBiker RThighTwist
+    100158: BipBiker RThighTwist1
+    100160: BipBiker RUpArmTwist
+    100162: BipBiker RUpArmTwist1
+    100164: BipBiker Spine
+    100166: BipBiker Spine1
+    100168: BipBiker Spine2
+    100170: BipBiker Spine3
+    100172: body
+    100174: bolt_a_
+    100176: bolt_a_01
+    100178: bolt_a_03
+    100180: bolt_a_04
+    100182: bolt_a_05
+    100184: bolt_a_06
+    100186: bolt_a_07
+    100188: bolt_a_08
+    100190: bolt_b_
+    100192: bone_jaw_ROTATE
+    100194: bottle jossanova
+    100196: brakes
+    100198: brakes_front
+    100200: cables_rear
+    100202: cage01 elite patao
+    100204: cage02 elite patao
+    100206: casette
+    100208: computer
+    100210: crankset
+    100212: eye_left
+    100214: eye_right
+    100216: fork+handlebars
+    100218: frame
+    100220: frame+
+    100222: front derailleur
+    100224: glasses
+    100226: gloves
+    100228: hair
+    100230: handelbar_controler
+    100232: handelbars+fork
+    100234: helmet
+    100236: helmet_straps
+    100238: jaw upper
+    100240: jaw_lower
+    100242: magnet
+    100244: magnet01
+    100246: nut
+    100248: outfit
+    100250: p01
+    100252: p02
+    100254: pedal_left
+    100256: pedal_right
+    100258: PedalL_dummy
+    100260: PedalR_dummy
+    100262: rear derailleur
+    100264: saddle
+    100266: saddle 1
+    100268: saddle_Dummy
+    100270: seat_post
+    100272: sensor
+    100274: shifters
+    100276: shoes
+    100278: skewer_front
+    100280: skewer_rear
+    100282: stud
+    100284: tape
+    100286: tongue control spline
+    100288: tongueCONTROL_Point01
+    100290: tongueCONTROL_Point02
+    100292: tongueCONTROL_Point03
+    100294: tongueCONTROL_Point04
+    100296: tongueCONTROL_Point05
+    100298: wheel front_controler
+    100300: wheel_front_high-profile
+    100302: wheel_front_low-profile
+    100304: wheel_rear_and_pedals_controler
+    100306: wheel_rear_high-profile
+    100308: wheel_rear_low-profile
+    100310: wheel_rear_only_controler
+    100312: wheelee_controler
+    400000: //RootNode
+    400002: bike_root_controler
+    400004: BipBiker
+    400006: BipBiker Footsteps
+    400008: BipBiker Head
+    400010: BipBiker HeadNub
+    400012: BipBiker L Calf
+    400014: BipBiker L Clavicle
+    400016: BipBiker L Finger0
+    400018: BipBiker L Finger01
+    400020: BipBiker L Finger02
+    400022: BipBiker L Finger0Nub
+    400024: BipBiker L Finger1
+    400026: BipBiker L Finger11
+    400028: BipBiker L Finger12
+    400030: BipBiker L Finger1Nub
+    400032: BipBiker L Finger2
+    400034: BipBiker L Finger21
+    400036: BipBiker L Finger22
+    400038: BipBiker L Finger2Nub
+    400040: BipBiker L Finger3
+    400042: BipBiker L Finger31
+    400044: BipBiker L Finger32
+    400046: BipBiker L Finger3Nub
+    400048: BipBiker L Finger4
+    400050: BipBiker L Finger41
+    400052: BipBiker L Finger42
+    400054: BipBiker L Finger4Nub
+    400056: BipBiker L Foot
+    400058: BipBiker L Forearm
+    400060: BipBiker L ForeTwist
+    400062: BipBiker L ForeTwist1
+    400064: BipBiker L Hand
+    400066: BipBiker L Thigh
+    400068: BipBiker L Toe0
+    400070: BipBiker L Toe01
+    400072: BipBiker L UpperArm
+    400074: BipBiker LCalfTwist
+    400076: BipBiker LCalfTwist1
+    400078: BipBiker LThighTwist
+    400080: BipBiker LThighTwist1
+    400082: BipBiker LUpArmTwist
+    400084: BipBiker LUpArmTwist1
+    400086: BipBiker Neck
+    400088: BipBiker Pelvis
+    400090: BipBiker R Calf
+    400092: BipBiker R Clavicle
+    400094: BipBiker R Finger0
+    400096: BipBiker R Finger01
+    400098: BipBiker R Finger02
+    400100: BipBiker R Finger0Nub
+    400102: BipBiker R Finger1
+    400104: BipBiker R Finger11
+    400106: BipBiker R Finger12
+    400108: BipBiker R Finger1Nub
+    400110: BipBiker R Finger2
+    400112: BipBiker R Finger21
+    400114: BipBiker R Finger22
+    400116: BipBiker R Finger2Nub
+    400118: BipBiker R Finger3
+    400120: BipBiker R Finger31
+    400122: BipBiker R Finger32
+    400124: BipBiker R Finger3Nub
+    400126: BipBiker R Finger4
+    400128: BipBiker R Finger41
+    400130: BipBiker R Finger42
+    400132: BipBiker R Finger4Nub
+    400134: BipBiker R Foot
+    400136: BipBiker R Forearm
+    400138: BipBiker R ForeTwist
+    400140: BipBiker R ForeTwist1
+    400142: BipBiker R Hand
+    400144: BipBiker R Thigh
+    400146: BipBiker R Toe0
+    400148: BipBiker R Toe01
+    400150: BipBiker R UpperArm
+    400152: BipBiker RCalfTwist
+    400154: BipBiker RCalfTwist1
+    400156: BipBiker RThighTwist
+    400158: BipBiker RThighTwist1
+    400160: BipBiker RUpArmTwist
+    400162: BipBiker RUpArmTwist1
+    400164: BipBiker Spine
+    400166: BipBiker Spine1
+    400168: BipBiker Spine2
+    400170: BipBiker Spine3
+    400172: body
+    400174: bolt_a_
+    400176: bolt_a_01
+    400178: bolt_a_03
+    400180: bolt_a_04
+    400182: bolt_a_05
+    400184: bolt_a_06
+    400186: bolt_a_07
+    400188: bolt_a_08
+    400190: bolt_b_
+    400192: bone_jaw_ROTATE
+    400194: bottle jossanova
+    400196: brakes
+    400198: brakes_front
+    400200: cables_rear
+    400202: cage01 elite patao
+    400204: cage02 elite patao
+    400206: casette
+    400208: computer
+    400210: crankset
+    400212: eye_left
+    400214: eye_right
+    400216: fork+handlebars
+    400218: frame
+    400220: frame+
+    400222: front derailleur
+    400224: glasses
+    400226: gloves
+    400228: hair
+    400230: handelbar_controler
+    400232: handelbars+fork
+    400234: helmet
+    400236: helmet_straps
+    400238: jaw upper
+    400240: jaw_lower
+    400242: magnet
+    400244: magnet01
+    400246: nut
+    400248: outfit
+    400250: p01
+    400252: p02
+    400254: pedal_left
+    400256: pedal_right
+    400258: PedalL_dummy
+    400260: PedalR_dummy
+    400262: rear derailleur
+    400264: saddle
+    400266: saddle 1
+    400268: saddle_Dummy
+    400270: seat_post
+    400272: sensor
+    400274: shifters
+    400276: shoes
+    400278: skewer_front
+    400280: skewer_rear
+    400282: stud
+    400284: tape
+    400286: tongue control spline
+    400288: tongueCONTROL_Point01
+    400290: tongueCONTROL_Point02
+    400292: tongueCONTROL_Point03
+    400294: tongueCONTROL_Point04
+    400296: tongueCONTROL_Point05
+    400298: wheel front_controler
+    400300: wheel_front_high-profile
+    400302: wheel_front_low-profile
+    400304: wheel_rear_and_pedals_controler
+    400306: wheel_rear_high-profile
+    400308: wheel_rear_low-profile
+    400310: wheel_rear_only_controler
+    400312: wheelee_controler
+    2300000: bolt_a_
+    2300002: bolt_a_01
+    2300004: bolt_a_03
+    2300006: bolt_a_04
+    2300008: bolt_a_05
+    2300010: bolt_a_06
+    2300012: bolt_a_07
+    2300014: bolt_a_08
+    2300016: bolt_b_
+    2300018: bone_jaw_ROTATE
+    2300020: bottle jossanova
+    2300022: brakes
+    2300024: brakes_front
+    2300026: cables_rear
+    2300028: cage01 elite patao
+    2300030: cage02 elite patao
+    2300032: casette
+    2300034: computer
+    2300036: crankset
+    2300038: eye_left
+    2300040: eye_right
+    2300042: fork+handlebars
+    2300044: frame
+    2300046: front derailleur
+    2300048: glasses
+    2300050: helmet
+    2300052: jaw upper
+    2300054: magnet
+    2300056: magnet01
+    2300058: nut
+    2300060: p01
+    2300062: p02
+    2300064: pedal_left
+    2300066: pedal_right
+    2300068: rear derailleur
+    2300070: saddle 1
+    2300072: seat_post
+    2300074: sensor
+    2300076: shifters
+    2300078: skewer_front
+    2300080: skewer_rear
+    2300082: stud
+    2300084: tape
+    2300086: wheel_front_high-profile
+    2300088: wheel_front_low-profile
+    2300090: wheel_rear_high-profile
+    2300092: wheel_rear_low-profile
+    3300000: bolt_a_
+    3300002: bolt_a_01
+    3300004: bolt_a_03
+    3300006: bolt_a_04
+    3300008: bolt_a_05
+    3300010: bolt_a_06
+    3300012: bolt_a_07
+    3300014: bolt_a_08
+    3300016: bolt_b_
+    3300018: bone_jaw_ROTATE
+    3300020: bottle jossanova
+    3300022: brakes
+    3300024: brakes_front
+    3300026: cables_rear
+    3300028: cage01 elite patao
+    3300030: cage02 elite patao
+    3300032: casette
+    3300034: computer
+    3300036: crankset
+    3300038: eye_left
+    3300040: eye_right
+    3300042: fork+handlebars
+    3300044: frame
+    3300046: front derailleur
+    3300048: glasses
+    3300050: helmet
+    3300052: jaw upper
+    3300054: magnet
+    3300056: magnet01
+    3300058: nut
+    3300060: p01
+    3300062: p02
+    3300064: pedal_left
+    3300066: pedal_right
+    3300068: rear derailleur
+    3300070: saddle 1
+    3300072: seat_post
+    3300074: sensor
+    3300076: shifters
+    3300078: skewer_front
+    3300080: skewer_rear
+    3300082: stud
+    3300084: tape
+    3300086: wheel_front_high-profile
+    3300088: wheel_front_low-profile
+    3300090: wheel_rear_high-profile
+    3300092: wheel_rear_low-profile
+    4300000: jaw_lower
+    4300002: body
+    4300004: cage02 elite patao
+    4300006: bolt_a_05
+    4300008: bolt_a_06
+    4300010: frame
+    4300012: bottle jossanova
+    4300014: cage01 elite patao
+    4300016: bolt_a_07
+    4300018: bolt_a_08
+    4300020: bolt_a_04
+    4300022: cables_rear
+    4300024: brakes
+    4300026: rear derailleur
+    4300028: front derailleur
+    4300030: skewer_rear
+    4300032: p01
+    4300034: p02
+    4300036: fork+handlebars
+    4300038: shifters
+    4300040: tape
+    4300042: sensor
+    4300044: computer
+    4300046: brakes_front
+    4300048: skewer_front
+    4300050: bolt_a_01
+    4300052: bolt_a_03
+    4300054: wheel_front_high-profile
+    4300056: magnet01
+    4300058: magnet
+    4300060: wheel_front_low-profile
+    4300062: seat_post
+    4300064: bolt_b_
+    4300066: nut
+    4300068: bolt_a_
+    4300070: stud
+    4300072: saddle
+    4300074: bone_jaw_ROTATE
+    4300076: eye_left
+    4300078: eye_right
+    4300080: hair
+    4300082: jaw upper
+    4300084: glasses
+    4300086: helmet
+    4300088: helmet_straps
+    4300090: crankset
+    4300092: pedal_left
+    4300094: pedal_right
+    4300096: wheel_rear_high-profile
+    4300098: wheel_rear_low-profile
+    4300100: casette
+    4300102: outfit
+    4300104: gloves
+    4300106: shoes
+    7400000: Turn_Left
+    7400002: Turn_Right
+    7400004: No_Turn
+    7400006: Pedal
+    9500000: //RootNode
+    13700000: body
+    13700002: gloves
+    13700004: hair
+    13700006: helmet_straps
+    13700008: jaw_lower
+    13700010: outfit
+    13700012: shoes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Turn_Left
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bike_root_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/casette
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_high-profile
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy/pedal_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy/pedal_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bolt_a_04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bottle jossanova
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/brakes
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cables_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_07
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_08
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_06
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/frame
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/front derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/rear derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/skewer_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/brakes_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/computer
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/sensor
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/shifters
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/skewer_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/tape
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Footsteps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0/BipBiker L Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist/BipBiker
+          LCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist/BipBiker LThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0/BipBiker R Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist/BipBiker
+          RCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist/BipBiker RThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/BipBiker HeadNub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongue control spline
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04/tongueCONTROL_Point05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/glasses
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/hair
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet_straps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/jaw upper
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist/BipBiker L ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02/BipBiker
+          L Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12/BipBiker
+          L Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22/BipBiker
+          L Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32/BipBiker
+          L Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42/BipBiker
+          L Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist/BipBiker
+          LUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist/BipBiker R ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02/BipBiker
+          R Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12/BipBiker
+          R Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22/BipBiker
+          R Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32/BipBiker
+          R Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42/BipBiker
+          R Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist/BipBiker
+          RUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_a_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_b_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/nut
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/saddle 1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/seat_post
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/stud
+        weight: 1
+      - path: body
+        weight: 1
+      - path: gloves
+        weight: 1
+      - path: jaw_lower
+        weight: 1
+      - path: outfit
+        weight: 1
+      - path: shoes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn_Right
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bike_root_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/casette
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_high-profile
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy/pedal_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy/pedal_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bolt_a_04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bottle jossanova
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/brakes
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cables_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_07
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_08
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_06
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/frame
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/front derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/rear derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/skewer_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/brakes_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/computer
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/sensor
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/shifters
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/skewer_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/tape
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Footsteps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0/BipBiker L Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist/BipBiker
+          LCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist/BipBiker LThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0/BipBiker R Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist/BipBiker
+          RCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist/BipBiker RThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/BipBiker HeadNub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongue control spline
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04/tongueCONTROL_Point05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/glasses
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/hair
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet_straps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/jaw upper
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist/BipBiker L ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02/BipBiker
+          L Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12/BipBiker
+          L Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22/BipBiker
+          L Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32/BipBiker
+          L Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42/BipBiker
+          L Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist/BipBiker
+          LUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist/BipBiker R ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02/BipBiker
+          R Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12/BipBiker
+          R Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22/BipBiker
+          R Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32/BipBiker
+          R Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42/BipBiker
+          R Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist/BipBiker
+          RUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_a_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_b_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/nut
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/saddle 1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/seat_post
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/stud
+        weight: 1
+      - path: body
+        weight: 1
+      - path: gloves
+        weight: 1
+      - path: jaw_lower
+        weight: 1
+      - path: outfit
+        weight: 1
+      - path: shoes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pedal
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bike_root_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/casette
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_high-profile
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy/pedal_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy/pedal_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bolt_a_04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bottle jossanova
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/brakes
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cables_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_07
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_08
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_06
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/frame
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/front derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/rear derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/skewer_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/brakes_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/computer
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/sensor
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/shifters
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/skewer_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/tape
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Footsteps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0/BipBiker L Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist/BipBiker
+          LCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist/BipBiker LThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0/BipBiker R Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist/BipBiker
+          RCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist/BipBiker RThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/BipBiker HeadNub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongue control spline
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04/tongueCONTROL_Point05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/glasses
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/hair
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet_straps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/jaw upper
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist/BipBiker L ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02/BipBiker
+          L Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12/BipBiker
+          L Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22/BipBiker
+          L Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32/BipBiker
+          L Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42/BipBiker
+          L Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist/BipBiker
+          LUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist/BipBiker R ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02/BipBiker
+          R Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12/BipBiker
+          R Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22/BipBiker
+          R Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32/BipBiker
+          R Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42/BipBiker
+          R Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist/BipBiker
+          RUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_a_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_b_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/nut
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/saddle 1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/seat_post
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/stud
+        weight: 1
+      - path: body
+        weight: 1
+      - path: gloves
+        weight: 1
+      - path: jaw_lower
+        weight: 1
+      - path: outfit
+        weight: 1
+      - path: shoes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: No_Turn
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bike_root_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/casette
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_high-profile
+        weight: 1
+      - path: bike_root_controler/wheel_rear_and_pedals_controler/wheel_rear_only_controler/wheel_rear_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalL_dummy/pedal_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/crankset/PedalR_dummy/pedal_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bolt_a_04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/bottle jossanova
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/brakes
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cables_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_07
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage01 elite patao/bolt_a_08
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/cage02 elite patao/bolt_a_06
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/frame
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/front derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/p02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/rear derailleur
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/frame+/skewer_rear
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/bolt_a_03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/brakes_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/computer
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/sensor
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/shifters
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/skewer_front
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/handelbars+fork/fork+handlebars/tape
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_high-profile/magnet01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/handelbar_controler/wheel front_controler/wheel_front_low-profile
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Footsteps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker L Foot/BipBiker
+          L Toe0/BipBiker L Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker L Calf/BipBiker LCalfTwist/BipBiker
+          LCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker L Thigh/BipBiker LThighTwist/BipBiker LThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker R Foot/BipBiker
+          R Toe0/BipBiker R Toe01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker R Calf/BipBiker RCalfTwist/BipBiker
+          RCalfTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker R Thigh/BipBiker RThighTwist/BipBiker RThighTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/BipBiker HeadNub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongue control spline
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/bone_jaw_ROTATE/tongueCONTROL_Point01/tongueCONTROL_Point02/tongueCONTROL_Point03/tongueCONTROL_Point04/tongueCONTROL_Point05
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_left
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/eye_right
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/glasses
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/hair
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/helmet_straps
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker Head/jaw upper
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L ForeTwist/BipBiker L ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger0/BipBiker L Finger01/BipBiker L Finger02/BipBiker
+          L Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger1/BipBiker L Finger11/BipBiker L Finger12/BipBiker
+          L Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger2/BipBiker L Finger21/BipBiker L Finger22/BipBiker
+          L Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger3/BipBiker L Finger31/BipBiker L Finger32/BipBiker
+          L Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker L Forearm/BipBiker
+          L Hand/BipBiker L Finger4/BipBiker L Finger41/BipBiker L Finger42/BipBiker
+          L Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker L Clavicle/BipBiker L UpperArm/BipBiker LUpArmTwist/BipBiker
+          LUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R ForeTwist/BipBiker R ForeTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger0/BipBiker R Finger01/BipBiker R Finger02/BipBiker
+          R Finger0Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger1/BipBiker R Finger11/BipBiker R Finger12/BipBiker
+          R Finger1Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger2/BipBiker R Finger21/BipBiker R Finger22/BipBiker
+          R Finger2Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger3/BipBiker R Finger31/BipBiker R Finger32/BipBiker
+          R Finger3Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker R Forearm/BipBiker
+          R Hand/BipBiker R Finger4/BipBiker R Finger41/BipBiker R Finger42/BipBiker
+          R Finger4Nub
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/BipBiker/BipBiker
+          Pelvis/BipBiker Spine/BipBiker Spine1/BipBiker Spine2/BipBiker Spine3/BipBiker
+          Neck/BipBiker R Clavicle/BipBiker R UpperArm/BipBiker RUpArmTwist/BipBiker
+          RUpArmTwist1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_a_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/bolt_b_
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/nut
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/saddle 1
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/seat_post
+        weight: 1
+      - path: bike_root_controler/wheelee_controler/saddle_Dummy/saddle/stud
+        weight: 1
+      - path: body
+        weight: 1
+      - path: gloves
+        weight: 1
+      - path: jaw_lower
+        weight: 1
+      - path: outfit
+        weight: 1
+      - path: shoes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
