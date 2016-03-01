@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VRBike/Standard UI/Standard_UI.unity
+- path: Scene.unity
   isLoaded: 1
   isActive: 1
