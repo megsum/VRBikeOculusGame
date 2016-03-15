@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.VR;
 
 public class StartMenu : MonoBehaviour {
 
@@ -9,6 +10,11 @@ public class StartMenu : MonoBehaviour {
 
     [SerializeField]
     Toggle OculusRift3DFirstToggle;
+
+    private void Awake() 
+    {
+        VRSettings.enabled = false;
+    }
 
     public void LoadScene(int level)
     {
