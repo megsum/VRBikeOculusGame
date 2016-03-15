@@ -6,4 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+  - enabled: 1
+    path: Assets/Scenes/Trail.unity
+  - enabled: 1
     path: Assets/VRBike/Standard UI/Standard_UI.unity
