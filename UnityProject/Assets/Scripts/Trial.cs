@@ -41,7 +41,7 @@ public class Trial : MonoBehaviour
             switch (TrialState)
             {
                 case TrialState.NotStarted:
-                    var startMenu = GetComponentInParent<StartMenu>();
+                    var startMenu = GetComponent<StartMenu>();
                     var firstAttemptType = startMenu.GetSelectedCourseAttemptType();
                     var secondAttemptType = FirstAttempt.Type == CourseAttemptType.OculusRift3D
                         ? CourseAttemptType.Projected2D
