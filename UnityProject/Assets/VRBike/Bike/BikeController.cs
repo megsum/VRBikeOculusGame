@@ -226,9 +226,7 @@ public class BikeController : MonoBehaviour {
         TerrainCollider terrainCollider = CollisionDisabler.GetTerrainColliderForActiveTerrain();
         (new CollisionDisabler(characterController, terrainCollider)).Start();
 
-        // Start the timer.
-        this._refTime = DateTime.Now;
-        this._timerStarted = true;
+        
     }
 
     /// <summary>
@@ -312,7 +310,18 @@ public class BikeController : MonoBehaviour {
 	}
 
 	void Update ()
-    {
+    {	
+		// Start the timer.
+		if (!this._timerStarted && this.bikePhysics.Velocity > 0)
+		{
+			this._refTime = DateTime.Now;
+			this._timerStarted = true;
+		}
+		// stop the timer if reachs trigger
+		if (transform.position.z > -35)
+		{
+			this._timerStarted = false;
+		}
         // default value of the speed sensitivity is 0
         if(bikeData.BikeSpeedSensitivity > 0)
         {

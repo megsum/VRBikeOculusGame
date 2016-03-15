@@ -35,8 +35,8 @@ public class UIOverlay : MonoBehaviour
 
         // Timer
         if (bikeController.TimerStarted)
-        {
-            TimeSpan currentTime;
+        { 
+			TimeSpan currentTime;
             currentTime = DateTime.Now - bikeController.ReferenceTime;
 
             this.stdUI.TimeText.text = String.Format("{3:#0}:{2:00}:{1:00}.{0:00}",
@@ -45,7 +45,7 @@ public class UIOverlay : MonoBehaviour
                                                    Mathf.Floor((float)currentTime.Minutes),
                                                    Mathf.Floor((float)currentTime.TotalHours));
         }
-        else
+		else if( this.stdUI.TimeText.text.Equals("--:--:--.--") )
         {
             this.stdUI.TimeText.text = "--:--:--.--";
         }
