@@ -36,20 +36,20 @@ Material:
         second: 0.5
       data:
         first:
-          name: _SquashAmount
-        second: 1
+          name: _Occlusion
+        second: 7.5
       data:
         first:
-          name: _BaseLight
-        second: 0.35
+          name: _SquashAmount
+        second: 1
       data:
         first:
           name: _AO
         second: 2.4
       data:
         first:
-          name: _Occlusion
-        second: 7.5
+          name: _BaseLight
+        second: 0.35
     m_Colors:
       data:
         first:
@@ -61,11 +61,11 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _TreeInstanceScale
+          name: _TreeInstanceColor
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _TreeInstanceColor
+          name: _TreeInstanceScale
         second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1002 &2100001
 EditorExtensionImpl:
