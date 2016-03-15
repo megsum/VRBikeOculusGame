@@ -42,10 +42,13 @@ public class Trial : MonoBehaviour
             {
                 case TrialState.NotStarted:
                     var startMenu = GetComponentInParent<StartMenu>();
-                    FirstAttempt = new CourseAttempt(startMenu.GetSelectedCourseAttemptType());
-                    SecondAttempt = new CourseAttempt(FirstAttempt.Type == CourseAttemptType.OculusRift3D 
-                        ? CourseAttemptType.Projected2D 
-                        : CourseAttemptType.OculusRift3D);
+                    var firstAttemptType = startMenu.GetSelectedCourseAttemptType();
+                    var secondAttemptType = FirstAttempt.Type == CourseAttemptType.OculusRift3D
+                        ? CourseAttemptType.Projected2D
+                        : CourseAttemptType.OculusRift3D;
+
+                    FirstAttempt = new CourseAttempt(firstAttemptType);
+                    SecondAttempt = new CourseAttempt(secondAttemptType);
                     TrialState = TrialState.OnFirstAttempt;
                     break;
                 case TrialState.DoneFirstAttempt:

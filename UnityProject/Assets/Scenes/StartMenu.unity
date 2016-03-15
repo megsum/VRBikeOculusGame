@@ -644,7 +644,7 @@ GameObject:
   - 114: {fileID: 1419614118}
   - 114: {fileID: 1419614117}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartTrialButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -916,8 +916,9 @@ GameObject:
   - 114: {fileID: 1745287755}
   - 114: {fileID: 1745287761}
   - 114: {fileID: 1745287762}
+  - 114: {fileID: 1745287763}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: StartMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1053,6 +1054,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be718f789d2dc0745a987387f17c2983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Projected2DFirstToggle: {fileID: 1742442063}
+  OculusRift3DFirstToggle: {fileID: 0}
+--- !u!114 &1745287763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745287754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ec0bc0839a8f249bcd98fa2478efed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1869691649
@@ -1248,7 +1262,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000014305115, y: -10.000006}
+  m_AnchoredPosition: {x: 0.0000014305115, y: -10.000008}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142795158
