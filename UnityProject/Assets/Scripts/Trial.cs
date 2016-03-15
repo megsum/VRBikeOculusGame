@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.VR;
 
 /// <summary>
 /// Class that represent one participant's trial, which involves 2 course attempts: one on Oculus Rift, 
@@ -9,6 +10,8 @@ using UnityEngine.UI;
 /// </summary>
 public class Trial : MonoBehaviour
 {
+    public CourseAttemptType FirstAttemptType { get; set; }
+
     private CourseAttempt FirstAttempt { get; set; }
     private CourseAttempt SecondAttempt { get; set; }
     private TrialState TrialState { get; set; }
@@ -41,23 +44,36 @@ public class Trial : MonoBehaviour
             switch (TrialState)
             {
                 case TrialState.NotStarted:
-                    var startMenu = GetComponent<StartMenu>();
-                    var firstAttemptType = startMenu.GetSelectedCourseAttemptType();
-                    var secondAttemptType = FirstAttempt.Type == CourseAttemptType.OculusRift3D
+                    var firstAttemptType = FirstAttemptType;
+                    var secondAttemptType = firstAttemptType == CourseAttemptType.OculusRift3D
                         ? CourseAttemptType.Projected2D
                         : CourseAttemptType.OculusRift3D;
 
                     FirstAttempt = new CourseAttempt(firstAttemptType);
                     SecondAttempt = new CourseAttempt(secondAttemptType);
+
+                    SetViewMode(firstAttemptType);
+
                     TrialState = TrialState.OnFirstAttempt;
                     break;
                 case TrialState.DoneFirstAttempt:
+                    SetViewMode(SecondAttempt.Type);
+
                     TrialState = TrialState.OnSecondAttempt;
                     break;
                 default:
                     throw new InvalidOperationException("Trail scene loaded during invalid Trial state.");
             }
         }
+    }
+
+    private void SetViewMode(CourseAttemptType attemptType)
+    {
+        var enableVR = attemptType == CourseAttemptType.OculusRift3D;
+
+        Debug.Log(enableVR ? "Enabling VR." : "Disabling VR.");
+
+        VRSettings.enabled = enableVR;
     }
 }
 

@@ -12,6 +12,8 @@ public class StartMenu : MonoBehaviour {
 
     public void LoadScene(int level)
     {
+        var trial = GameObject.Find("TrialManager").GetComponent<Trial>();
+        trial.FirstAttemptType = GetSelectedCourseAttemptType();
         SceneManager.LoadScene(level);
     }
 
