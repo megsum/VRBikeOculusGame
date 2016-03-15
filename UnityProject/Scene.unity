@@ -95,6 +95,7 @@ GameObject:
   - 4: {fileID: 1702864}
   - 114: {fileID: 1702863}
   - 143: {fileID: 1702865}
+  - 114: {fileID: 1702866}
   m_Layer: 0
   m_Name: GameBike
   m_TagString: Untagged
@@ -171,6 +172,17 @@ CharacterController:
   m_SkinWidth: 0.2
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: -0.31, z: 0}
+--- !u!114 &1702866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c56ee3fe54d4584853514f6b4a1016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &12580819
 GameObject:
   m_ObjectHideFlags: 0
