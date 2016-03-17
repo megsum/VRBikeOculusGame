@@ -22,16 +22,6 @@ public class Trial : MonoBehaviour
         TrialState = TrialState.NotStarted;
     }
 
-    // Update is called once per frame
-    private void Update()
-    {
-        var attempt = GetLatestAttempt();
-        if (attempt != null)
-        {
-            attempt.AddToTimer(Time.deltaTime);
-        }
-    }
-
     public void OnCollision()
     {
         var attempt = GetLatestAttempt();
@@ -120,20 +110,13 @@ public class CourseAttempt
     public CourseAttempt(CourseAttemptType type)
     {
         Type = type;
-        TimeElapsed = 0f;
+        TimeElapsed = TimeSpan.Zero;
         ObstaclesHit = 0;
     }
 
     public CourseAttemptType Type { get; set; }
-
+    public TimeSpan TimeElapsed { get; set; }
     public int ObstaclesHit { get; private set; }
-
-    public float TimeElapsed { get; private set; }
-
-    public void AddToTimer(float timeDelta)
-    {
-        TimeElapsed += timeDelta;
-    }
 
     public void IncrementObstaclesHit()
     {

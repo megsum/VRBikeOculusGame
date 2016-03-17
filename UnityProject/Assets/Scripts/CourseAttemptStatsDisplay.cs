@@ -12,7 +12,7 @@ public class CourseAttemptStatsDisplay : MonoBehaviour
     {
         var trial = GameObject.Find("TrialManager").GetComponent<Trial>();
 
-        var timeElapsed = TimeSpan.FromSeconds(trial.GetLatestAttempt().TimeElapsed);
+        var timeElapsed = trial.GetLatestAttempt().TimeElapsed;
 
         Time.GetComponent<Text>().text = string.Format(@"{0}.{1:000} seconds",
             (int) Math.Floor(timeElapsed.TotalSeconds), timeElapsed.Milliseconds);
