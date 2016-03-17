@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.VR;
 
 /// <summary>
@@ -18,6 +16,7 @@ public class Trial : MonoBehaviour
 
     private void Awake()
     {
+        VRSettings.enabled = false;
         DontDestroyOnLoad(this);
         TrialState = TrialState.NotStarted;
     }
