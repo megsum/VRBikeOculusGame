@@ -1033,9 +1033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5c7e6c3ea2b2b409d2bff555d31ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Time: {fileID: 0}
-  ObstaclesHit: {fileID: 0}
-  NextAttempt: {fileID: 0}
+  Time: {fileID: 1036232560}
+  ObstaclesHit: {fileID: 11829758}
+  NextAttempt: {fileID: 468139636}
 --- !u!1 &1869691649
 GameObject:
   m_ObjectHideFlags: 0
