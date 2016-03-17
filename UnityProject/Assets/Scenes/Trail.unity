@@ -2406,7 +2406,7 @@ Transform:
   m_PrefabParentObject: {fileID: 407084, guid: 2c7ea62daccb5b341a85e95d0c27ec5d, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 276484385}
-  m_LocalRotation: {x: 0.849777, y: -0.52664083, z: -0.004748313, w: 0.022497231}
+  m_LocalRotation: {x: 0.84977686, y: -0.5266408, z: -0.0047483128, w: 0.02249723}
   m_LocalPosition: {x: 0.07391464, y: 0.056383666, z: -0.103771254}
   m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
   m_Children:
@@ -6440,6 +6440,58 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b109b3a5041914e3e954ff4bc906a4f5, type: 2}
   m_PrefabInternal: {fileID: 940047683}
+--- !u!1 &940940580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 940940583}
+  - 65: {fileID: 940940582}
+  - 114: {fileID: 940940581}
+  m_Layer: 0
+  m_Name: EndGoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &940940581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940940580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ac5952e4df20498fa12eb5dd870b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &940940582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940940580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &940940583
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940940580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -102.91, y: 8.35, z: -42.99}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
 --- !u!1 &944200258
 GameObject:
   m_ObjectHideFlags: 0
