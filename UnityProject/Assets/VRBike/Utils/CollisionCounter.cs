@@ -1,23 +1,20 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class CollisionCounter : MonoBehaviour {
-	public static int numCollisions = -1;
+namespace VRBike.Utils
+{
+    public class CollisionCounter : MonoBehaviour
+    {
+        private Trial _trial;
 
-	// Use this for initialization
-	void Start () {
-		if (numCollisions == -1) {
-			numCollisions = 0;
-		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-	//Increases collision counter upon entering a trigger
-	void OnTriggerEnter(Collider other){
-		numCollisions++;
-		Debug.Log (numCollisions);
-	}
+        private void Awake()
+        {
+            _trial = GameObject.Find("TrialManager").GetComponent<Trial>();
+        }
+
+        //Increases collision counter upon entering a trigger
+        private void OnTriggerEnter(Collider other)
+        {
+            _trial.OnCollision();
+        }
+    }
 }

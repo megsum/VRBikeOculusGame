@@ -11,11 +11,6 @@ public class StartMenu : MonoBehaviour {
     [SerializeField]
     Toggle OculusRift3DFirstToggle;
 
-    private void Awake() 
-    {
-        VRSettings.enabled = false;
-    }
-
     public void LoadScene(int level)
     {
         var trial = GameObject.Find("TrialManager").GetComponent<Trial>();

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.VR;
 
 /// <summary>
@@ -12,28 +10,23 @@ public class Trial : MonoBehaviour
 {
     public CourseAttemptType FirstAttemptType { get; set; }
 
-    private CourseAttempt FirstAttempt { get; set; }
-    private CourseAttempt SecondAttempt { get; set; }
-    private TrialState TrialState { get; set; }
+    public CourseAttempt FirstAttempt { get; set; }
+    public CourseAttempt SecondAttempt { get; set; }
+    public TrialState TrialState { get; private set; }
 
     private void Awake()
     {
+        VRSettings.enabled = false;
         DontDestroyOnLoad(this);
         TrialState = TrialState.NotStarted;
     }
 
-    // Update is called once per frame
-    private void Update()
+    public void OnCollision()
     {
-        switch (TrialState)
+        var attempt = GetLatestAttempt();
+        if (attempt != null)
         {
-            case TrialState.OnFirstAttempt:
-                FirstAttempt.AddToTimer(Time.deltaTime);
-                break;
-            case TrialState.OnSecondAttempt:
-                SecondAttempt.AddToTimer(Time.deltaTime);
-                break;
-            // do nothing on default
+            attempt.IncrementObstaclesHit();
         }
     }
 
@@ -65,6 +58,16 @@ public class Trial : MonoBehaviour
                     throw new InvalidOperationException("Trail scene loaded during invalid Trial state.");
             }
         }
+        if (level == 2) // Halfway Screen
+        {
+            VRSettings.enabled = false;
+            TrialState = TrialState.DoneFirstAttempt;
+        }
+        if (level == 3) // End Screen
+        {
+            VRSettings.enabled = false;
+            TrialState = TrialState.Done;
+        }
     }
 
     private void SetViewMode(CourseAttemptType attemptType)
@@ -74,6 +77,21 @@ public class Trial : MonoBehaviour
         Debug.Log(enableVR ? "Enabling VR." : "Disabling VR.");
 
         VRSettings.enabled = enableVR;
+    }
+
+    public CourseAttempt GetLatestAttempt()
+    {
+        switch (TrialState)
+        {
+            case TrialState.OnFirstAttempt:
+            case TrialState.DoneFirstAttempt:
+                return FirstAttempt;
+            case TrialState.OnSecondAttempt:
+            case TrialState.Done:
+                return SecondAttempt;
+            default:
+                return null;
+        }
     }
 }
 
@@ -91,19 +109,17 @@ public class CourseAttempt
     public CourseAttempt(CourseAttemptType type)
     {
         Type = type;
-        TimeElapsed = 0f;
+        TimeElapsed = TimeSpan.Zero;
         ObstaclesHit = 0;
     }
 
     public CourseAttemptType Type { get; set; }
-
+    public TimeSpan TimeElapsed { get; set; }
     public int ObstaclesHit { get; private set; }
 
-    public float TimeElapsed { get; private set; }
-
-    public void AddToTimer(float timeDelta)
+    public void IncrementObstaclesHit()
     {
-        TimeElapsed += timeDelta;
+        ObstaclesHit++;
     }
 }
 
