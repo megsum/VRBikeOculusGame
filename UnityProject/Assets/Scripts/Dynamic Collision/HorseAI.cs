@@ -3,8 +3,11 @@ using System.Collections;
 using System;
 //Implemented from: https://www.youtube.com/watch?v=drTcfhULpLA
 
+/// <summary>
+/// This class determines when the horse should run onto the path.
+/// It is determined by HorseRange which is an empty object which detects when the player is in range
+/// </summary>
 public class HorseAI : MonoBehaviour {
-
     Transform tr_Player;
     Transform tr_Range;
     float f_RotSpeed = 3.0f, f_MoveSpeed = 5.0f;
