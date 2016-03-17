@@ -25,15 +25,19 @@ public class Trial : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        switch (TrialState)
+        var attempt = GetLatestAttempt();
+        if (attempt != null)
         {
-            case TrialState.OnFirstAttempt:
-                FirstAttempt.AddToTimer(Time.deltaTime);
-                break;
-            case TrialState.OnSecondAttempt:
-                SecondAttempt.AddToTimer(Time.deltaTime);
-                break;
-            // do nothing on default
+            attempt.AddToTimer(Time.deltaTime);
+        }
+    }
+
+    public void OnCollision()
+    {
+        var attempt = GetLatestAttempt();
+        if (attempt != null)
+        {
+            attempt.IncrementObstaclesHit();
         }
     }
 
@@ -97,7 +101,7 @@ public class Trial : MonoBehaviour
             case TrialState.Done:
                 return SecondAttempt;
             default:
-                throw new InvalidOperationException();
+                return null;
         }
     }
 }
@@ -129,6 +133,11 @@ public class CourseAttempt
     public void AddToTimer(float timeDelta)
     {
         TimeElapsed += timeDelta;
+    }
+
+    public void IncrementObstaclesHit()
+    {
+        ObstaclesHit++;
     }
 }
 
