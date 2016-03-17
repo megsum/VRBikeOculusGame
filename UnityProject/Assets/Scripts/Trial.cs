@@ -65,6 +65,16 @@ public class Trial : MonoBehaviour
                     throw new InvalidOperationException("Trail scene loaded during invalid Trial state.");
             }
         }
+        if (level == 2) // Halfway Screen
+        {
+            VRSettings.enabled = false;
+            TrialState = TrialState.DoneFirstAttempt;
+        }
+        if (level == 3) // End Screen
+        {
+            VRSettings.enabled = false;
+            TrialState = TrialState.Done;
+        }
     }
 
     private void SetViewMode(CourseAttemptType attemptType)
@@ -74,6 +84,21 @@ public class Trial : MonoBehaviour
         Debug.Log(enableVR ? "Enabling VR." : "Disabling VR.");
 
         VRSettings.enabled = enableVR;
+    }
+
+    public CourseAttempt GetLatestAttempt()
+    {
+        switch (TrialState)
+        {
+            case TrialState.OnFirstAttempt:
+            case TrialState.DoneFirstAttempt:
+                return FirstAttempt;
+            case TrialState.OnSecondAttempt:
+            case TrialState.Done:
+                return SecondAttempt;
+            default:
+                throw new InvalidOperationException();
+        }
     }
 }
 
