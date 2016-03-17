@@ -12,9 +12,9 @@ public class Trial : MonoBehaviour
 {
     public CourseAttemptType FirstAttemptType { get; set; }
 
-    private CourseAttempt FirstAttempt { get; set; }
-    private CourseAttempt SecondAttempt { get; set; }
-    private TrialState TrialState { get; set; }
+    public CourseAttempt FirstAttempt { get; set; }
+    public CourseAttempt SecondAttempt { get; set; }
+    public TrialState TrialState { get; private set; }
 
     private void Awake()
     {
