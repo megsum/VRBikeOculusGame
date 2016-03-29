@@ -22,6 +22,8 @@ public class BikeController : MonoBehaviour {
     internal AntStick antStick;
     internal AntStickBridge antStickBridge;
 
+    internal bool firstStart = true;
+
     #region Properties
 
     /// <summary>
@@ -168,6 +170,7 @@ public class BikeController : MonoBehaviour {
         // Set the initial position and rotation; set the character controller.
         initialPosition = transform.position;
         initialRotation = transform.rotation;
+
         this.characterController = this.GetComponent<CharacterController>();
 
         // Reset position (altitude) and heading.
@@ -176,39 +179,43 @@ public class BikeController : MonoBehaviour {
         // Get a new BikeData object.
         bikeData = new BikeData();
 
-        #if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
+        if (firstStart)
+        {
+#if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
 
-        // Try to start Ant.
-        try
-        {
-            this.antStick = new AntStick();
-            this.antStickBridge = new AntStickBridge(antStick, bikeData);
-            this.antStick.Start();
-        }
-        catch (Exception ex)
-        {
-            Debug.LogWarningFormat("[BikeController] Exception while loading Ant.\n{0}", ex.Message);
-        }
+            // Try to start Ant.
+            try
+            {
+                this.antStick = new AntStick();
+                this.antStickBridge = new AntStickBridge(antStick, bikeData);
+                this.antStick.Start();
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarningFormat("[BikeController] Exception while loading Ant.\n{0}", ex.Message);
+            }
 
-        // Try to start the XSens Gyro.
-        try
-        {
-            this.xsensGyro = new XSensGyro();
-            this.xsensGyroBridge = new XSensGyroBridge(xsensGyro, this);
-            this.xsensGyro.Start();
-            // We have to wait after starting the gyro to zero it.
-            StartCoroutine(WaitThenZeroXSensGyro());
-        }
-        catch (Exception ex)
-        {
-            Debug.LogWarningFormat("[BikeController] Exception while loading XSens Gyro. The DLL is probably missing.\n{0}", ex.Message);
-        }
+            // Try to start the XSens Gyro.
+            try
+            {
+                this.xsensGyro = new XSensGyro();
+                this.xsensGyroBridge = new XSensGyroBridge(xsensGyro, this);
+                this.xsensGyro.Start();
+                // We have to wait after starting the gyro to zero it.
+                StartCoroutine(WaitThenZeroXSensGyro());
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarningFormat(
+                    "[BikeController] Exception while loading XSens Gyro. The DLL is probably missing.\n{0}", ex.Message);
+            }
 
-        #else
+#else
 
         Debug.LogWarning("[BikeController] ANT and XSens are not available on non-Windows platforms.");
 
         #endif
+        }
 
         // Initialize and attach all the supplemental components needed by Bike Controller.
 
@@ -222,13 +229,23 @@ public class BikeController : MonoBehaviour {
 		this.bikeSteering = new BikeSteering(this, this.steeringCurve);
 
         // Disable collisions between player character and the terrain.
-        CharacterController characterController = this.GetComponent<CharacterController>();
         TerrainCollider terrainCollider = CollisionDisabler.GetTerrainColliderForActiveTerrain();
         (new CollisionDisabler(characterController, terrainCollider)).Start();
 
-        // Start the timer.
+        // Start (or restart) the timer.
         this._refTime = DateTime.Now;
         this._timerStarted = true;
+
+        firstStart = false;
+	}
+
+    private void OnLevelWasLoaded(int level)
+    {
+        if ((Levels) level == Levels.Trail && !firstStart)
+        {
+            MovePlayerToInitialSpawn();
+            Start();
+        }
     }
 
     /// <summary>

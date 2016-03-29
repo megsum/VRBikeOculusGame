@@ -16,8 +16,7 @@ public class Trial : MonoBehaviour
 
     private void Awake()
     {
-        VRSettings.enabled = false;
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(gameObject);
         TrialState = TrialState.NotStarted;
     }
 
@@ -32,7 +31,9 @@ public class Trial : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
-        if (level == 1) // Trail 
+        var levelID = (Levels) level;
+
+        if (levelID == Levels.Trail)
         {
             switch (TrialState)
             {
@@ -58,14 +59,14 @@ public class Trial : MonoBehaviour
                     throw new InvalidOperationException("Trail scene loaded during invalid Trial state.");
             }
         }
-        if (level == 2) // Halfway Screen
+
+        if (levelID == Levels.HalfwayScreen)
         {
-            VRSettings.enabled = false;
             TrialState = TrialState.DoneFirstAttempt;
         }
-        if (level == 3) // End Screen
+
+        if (levelID == Levels.EndScreen)
         {
-            VRSettings.enabled = false;
             TrialState = TrialState.Done;
         }
     }
