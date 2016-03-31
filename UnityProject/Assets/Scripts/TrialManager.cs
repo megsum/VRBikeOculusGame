@@ -40,6 +40,8 @@ public class TrialManager : MonoBehaviour
         {
             TimeElapsed = timeElapsed;
             TrialState = TrialState.Done;
+			Debug.Log ("Time: " + TimeElapsed);
+			Debug.Log ("Collisions: " + ObstaclesHit);
         }
     }
 
