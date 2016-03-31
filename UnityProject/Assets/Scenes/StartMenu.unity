@@ -213,7 +213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2D First
+  m_Text: 2D
 --- !u!222 &699111899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1261,9 +1261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Oculus Rift First
-
-'
+  m_Text: Oculus Rift
 --- !u!222 &2083868192
 CanvasRenderer:
   m_ObjectHideFlags: 0
