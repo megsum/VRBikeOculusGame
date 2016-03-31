@@ -14,6 +14,8 @@ namespace VRBike.Utils
         //Increases collision counter upon entering a trigger
         private void OnTriggerEnter(Collider other)
         {
+            if (other.gameObject.tag == "IgnoreCollision") return;
+
             _trialManager.OnCollision();
         }
     }

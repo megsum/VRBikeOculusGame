@@ -4539,7 +4539,7 @@ Transform:
   m_PrefabParentObject: {fileID: 407084, guid: 2c7ea62daccb5b341a85e95d0c27ec5d, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 276484385}
-  m_LocalRotation: {x: 0.84977686, y: -0.5266408, z: -0.0047483128, w: 0.02249723}
+  m_LocalRotation: {x: 0.849777, y: -0.52664083, z: -0.004748313, w: 0.022497231}
   m_LocalPosition: {x: 0.07391464, y: 0.056383666, z: -0.103771254}
   m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
   m_Children:
@@ -13710,7 +13710,7 @@ GameObject:
   - 114: {fileID: 940940581}
   m_Layer: 0
   m_Name: EndGoal
-  m_TagString: Untagged
+  m_TagString: IgnoreCollision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
