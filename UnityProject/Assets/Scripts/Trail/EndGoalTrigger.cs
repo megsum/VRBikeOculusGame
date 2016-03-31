@@ -5,31 +5,19 @@ using UnityEngine.SceneManagement;
 public class EndGoalTrigger : MonoBehaviour
 {
     private BikeController _bikeController;
-    private Trial _trial;
+    private TrialManager _trialManager;
 
     private void Awake()
     {
         _bikeController = FindObjectOfType<BikeController>();
-        _trial = GameObject.Find("TrialManager").GetComponent<Trial>();
+        _trialManager = GameObject.Find("TrialManager").GetComponent<TrialManager>();
     }
 
     private void OnTriggerEnter()
     {
-        var trialState = _trial.TrialState;
-        var attempt = _trial.GetLatestAttempt();
-
         // Source: StandardUILoader.Update()
         var attemptTime = DateTime.Now - _bikeController.ReferenceTime;
-        attempt.TimeElapsed = attemptTime;
-
-        if (trialState == TrialState.OnFirstAttempt)
-        {
-            SceneManager.LoadScene(2); // Halfway screen
-        }
-
-        if (trialState == TrialState.OnSecondAttempt)
-        {
-            SceneManager.LoadScene(3); // End screen
-        }
+        _trialManager.OnTrialCompleted(attemptTime);
+        SceneManager.LoadScene((int) Levels.EndScreen);
     }
 }
