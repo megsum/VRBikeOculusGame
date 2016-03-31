@@ -36,7 +36,7 @@ public class TrialManager : MonoBehaviour
 
     public void OnTrialCompleted(TimeSpan timeElapsed)
     {
-        if (TrialState == TrialState.Done)
+        if (TrialState == TrialState.OnCourseAttempt)
         {
             TimeElapsed = timeElapsed;
             TrialState = TrialState.Done;

@@ -15,15 +15,9 @@ public class EndGoalTrigger : MonoBehaviour
 
     private void OnTriggerEnter()
     {
-        var trialState = _trialManager.TrialState;
-
         // Source: StandardUILoader.Update()
         var attemptTime = DateTime.Now - _bikeController.ReferenceTime;
         _trialManager.OnTrialCompleted(attemptTime);
-
-        if (trialState == TrialState.OnCourseAttempt)
-        {
-            SceneManager.LoadScene((int) Levels.EndScreen);
-        }
+        SceneManager.LoadScene((int) Levels.EndScreen);
     }
 }
