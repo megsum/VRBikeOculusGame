@@ -31,7 +31,10 @@ public class TrialManager : MonoBehaviour
 
     public void OnCollision()
     {
-        ObstaclesHit++;
+        if (TrialState == TrialState.OnCourseAttempt)
+        {
+            ObstaclesHit++;
+        }
     }
 
     public void OnTrialCompleted(TimeSpan timeElapsed)
@@ -40,6 +43,7 @@ public class TrialManager : MonoBehaviour
         {
             TimeElapsed = timeElapsed;
             TrialState = TrialState.Done;
+            Debug.Log("Collisions: " + ObstaclesHit);
         }
     }
 
