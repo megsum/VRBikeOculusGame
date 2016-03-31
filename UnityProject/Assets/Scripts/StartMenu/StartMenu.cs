@@ -13,8 +13,8 @@ public class StartMenu : MonoBehaviour {
 
     public void LoadScene(int level)
     {
-        var trial = GameObject.Find("TrialManager").GetComponent<Trial>();
-        trial.FirstAttemptType = GetSelectedCourseAttemptType();
+        var trial = GameObject.Find("TrialManager").GetComponent<TrialManager>();
+        trial.SetCourseAttemptType(GetSelectedCourseAttemptType());
         SceneManager.LoadScene(level);
     }
 
